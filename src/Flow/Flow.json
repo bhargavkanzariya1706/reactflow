@@ -1,0 +1,66 @@
+{
+	"flow_info": {
+		"flow_id": "ValleySocialWAAU"
+	},
+	"Flow_data": [
+		{
+			"block_number": "1",
+			"block_parent": "0",
+			"block_type": "start_block",
+			"block_lable": "Bot start point"
+		},
+		{
+			"block_number": "2",
+			"block_parent": "1",
+			"block_type": "send_msg",
+			"block_lable": "Greetings",
+			"block_place_holder": "Greetings",
+			"block_text": ["Hi there, welcome to Tridev Infoways!"],
+			"block_upload": [],
+			"block_default": true
+		},
+		{
+			"block_number": "3",
+			"block_parent": "2",	
+			"block_type": "Collect_input",
+			"block_lable": "Collect Input",
+			"block_place_holder": "May I have your name please?",
+			"block_text": "May I have your name please?",
+			"block_input_variable": "name",
+			"block_input_answer": "",
+			"block_default": true
+		},
+		{
+			"block_number": "4",
+			"block_parent": "3",	
+			"block_type": "Collect_input",
+			"block_lable": "Collect Input",
+			"block_place_holder": "What's the best email address to reach you at? ",
+			"block_text": "What's the best email address to reach you at? ",
+			"block_input_variable": "email",
+			"block_input_answer": "",
+			"block_default": false
+		},
+		{
+			"block_number": "5",
+			"block_parent": "4",	
+			"block_type": "Collect_input",
+			"block_lable": "Collect Input",
+			"block_place_holder": "Please brief me about your project requirement? ",
+			"block_text": "Please brief me about your project requirement? ",
+			"block_input_variable": "project_req",
+			"block_input_answer": "",
+			"block_default": false
+		},
+		{
+			"block_number": "6",
+			"block_parent": "5",
+			"block_type": "send_msg",
+			"block_lable": "Greetings",
+			"block_place_holder": "Greetings",
+			"block_text": ["Awesome!","We will get back to you soon at #email#","Have a good one!"],
+			"block_upload": [],
+			"block_default": false
+		}	
+	]
+}

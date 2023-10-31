@@ -1,0 +1,320 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.item {
+  /* text-transform: initial; */
+  /* color: rgb(203, 202, 202); */
+  border: none;
+  margin: 11px 0;
+  padding: 0;
+  min-width: initial;
+  background: transparent;
+  min-height: initial;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bnt {
+  transform: initial;
+  color: rgb(12, 1, 1);
+  border: none;
+  margin-left: 50%;
+  min-height: initial;
+  background: transparent;
+}
+.intro {
+  text-transform: initial;
+  margin: 11px 0;
+  padding: 0;
+  bottom: 0;
+  min-width: initial;
+  min-height: initial;
+  text-decoration: none;
+  margin-bottom: -18px;
+}
+.intro-1 {
+  text-transform: initial;
+  margin: 11px 0;
+  padding: 0;
+  bottom: 14px;
+  min-width: initial;
+  min-height: initial;
+  text-decoration: none;
+  margin-bottom: -18px;
+}
+.bnt:hover {
+  color: red;
+}
+.bnt_1:hover {
+  color: red;
+}
+.bnt_1 {
+  /* opacity: 0; */
+  /* margin: 34px -30px 0 6px; */
+  margin-left: 330px;
+     /* height: 24px; */
+  /* width: 24px; */
+}
+.bnt1:hover {
+  color: rgb(65, 255, 246);
+}
+.bod {
+  box-shadow: 0px 2px 20px 0 rgb(232, 233, 239, 0.5),
+    inset 6px 0px 0px -1px #ed2b2b;
+  cursor: pointer;
+  pointer-events: all;
+  color: black;
+  user-select: none;
+  font-size: 11px;
+}
+.bod2 {
+  box-shadow: 0px 2px 20px 0 rgb(232, 233, 239, 0.5),
+    inset 6px 0px 0px -1px #2ab9cd;
+  cursor: pointer;
+  pointer-events: all;
+  color: black;
+  user-select: none;
+  font-size: 11px;
+}
+.bod3 {
+  box-shadow: 0px 2px 20px 0 rgb(232, 233, 239, 0.5),
+    inset 6px 0px 0px -1px #f5be4f;
+  cursor: pointer;
+  color: #ffffff;
+  pointer-events: all;
+  color: black;
+  user-select: none;
+  font-size: 11px;
+}
+.bod4 {
+  box-shadow: 0px 2px 20px 0 rgb(232, 233, 239, 0.5),
+    inset 6px 0px 0px -1px #359cec;
+  cursor: pointer;
+  pointer-events: all;
+  color: black;
+  user-select: none;
+  font-size: 11px;
+}
+
+.ff {
+  font-size: 20px;
+  padding-top: 26px;
+  padding-left: 8px;
+  z-index: 0;
+  color: black;
+}
+
+/* Drope Box Css */
+
+.boxd {
+  /* width: 100%; */
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 20px 0 rgba(232, 233, 239, 0.5);
+  z-index: 100000;
+  position: absolute;
+  top: 42px;
+}
+.serch {
+  display: flex;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px rgb(108, 108, 108);
+  background-color: #ffffff;
+  align-items: center;
+  margin: 0 15px;
+  color: black;
+}
+._3r_cjv5qLAZXJ0yxuenAFr {
+  padding: 15px 0;
+}
+.inpt {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  /* font-family: monospace; */
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: black;
+  padding: 0 10px;
+}
+.drope_item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-height: 0px;
+  max-height: 207px;
+}
+.drope_scroll {
+  position: relative;
+  overflow: scroll;
+  margin-right: -17px;
+  margin-bottom: -17px;
+  min-height: 17px;
+  max-height: calc(224px);
+  cursor: default;
+}
+.item_massage {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #ffffff;
+  margin: 0 16px 0 24px;
+  cursor: pointer;
+}
+.item_icon {
+  width: 40px;
+  font-size: 0px;
+  padding: 0 16px 0 0;
+}
+.massage_ineside {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var("font-size: 1.5em font-weight: bolder");
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: black;
+}
+._1UHWnDVQz6IlE8BesuorIf {
+  margin: 0 16px 0 64px;
+  border-color: rgba(34, 33, 33, 0.93);
+  height: 1px;
+}
+.under_line {
+  width: 100%;
+  margin: 0 0 15px 0;
+  border: 0;
+  border-top: 2px solid #858585;
+  display: block;
+  text-align: left;
+}
+hr {
+  border: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+._1-XwhNZYDKmRBA_lAaVJLX {
+  width: 8px !important;
+  top: 20px;
+  background-color: #d8d8d8;
+  height: 82% !important;
+  right: 16px;
+}
+
+._1ydVj8TM7vlS69V634PKCm {
+  width: 8px !important;
+  opacity: 1;
+  left: 0;
+  border-radius: 4px;
+  background-color: rgb(132, 132, 132);
+  transform: translateY(0px);
+}
+._2iAfv3Hqk3Qc1p1B7CMlj3 {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #ffffff;
+  margin: 0 16px 0 24px;
+  cursor: pointer;
+}
+._373Z-i0F05J4tLu4remMBs {
+  width: 40px;
+  font-size: 0px;
+  padding: 0 16px 0 0;
+}
+._1xQdQFJcwMnQPogQf3-XYa {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: "font-size: 1.5em font-weight: bolder";
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: black;
+}
+
+.dropdown-menu {
+  --bs-dropdown-divider-margin-y: 0.5rem;
+  --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-link-hover-bg: #fff;
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg: #fff;
+  --bs-dropdown-item-padding-x: 1rem;
+  --bs-dropdown-item-padding-y: 0.25rem;
+  --bs-dropdown-header-color: #6c757d;
+  --bs-dropdown-header-padding-x: 1rem;
+  --bs-dropdown-header-padding-y: 0.5rem;
+  --bs-dropdown-border-color: transparent;
+  --bs-dropdown-border-width: 0px;
+}
+
+/* react handale button */
+.react-flow__handle-bottom {
+  left: 48%;
+  right: 46%;
+}
+
+/* .... */
+.react-flow__handle.connectionindicator {
+  pointer-events: all;
+  cursor: pointer;
+}
+.react-flow__handle-top {
+  left: 50%;
+  top: -4px;
+  transform: translate(-50%, 0);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 4px #ffffff;
+  cursor: pointer;
+  background-color: #afb2b3;
+}
+.b-handle {
+  border: none;
+}
